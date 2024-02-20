@@ -1,14 +1,15 @@
 {
   "name": "hospital_night_turns_be",
   "version": "1.0.0",
-  "description": "",
+  "author": "Ciccio Battaglia (https://github.com/Cicciobat)",
+  "description": "NodeJS back-end app to manage night hospital turns",
   "main": "src/app.js",
   "scripts": {
     "dev": "node --watch src/app.js",
+    "run": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
